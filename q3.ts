@@ -3,9 +3,12 @@ function primeNumber(a : number)
   for (let i = 2; i < a; i++) 
   {
     if( a%i === 0 ) 
-      return `NO`;
+      return "NO";
   }
-  return `YES`;
+  return "YES";
+  if (a==2){
+    return "YES";
+  }
 }
 
 const d1 = 10;
