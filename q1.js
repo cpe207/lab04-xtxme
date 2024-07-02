@@ -1,4 +1,5 @@
 //660610762 นางสาวธนพร ตั้งผดุงสุข
+
 function typeChecker(a, b) {
     if (typeof a === 'string' && typeof b === 'string') {
         return "I LOVE YOU";
@@ -10,6 +11,7 @@ function typeChecker(a, b) {
         return "NOT MATCHED";
     }
 }
+
 //Test cases
 var a1 = "Jack";
 var b1 = "Rose";

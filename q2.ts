@@ -1,8 +1,10 @@
+//660610762 นางสาวธนพร ตั้งผดุงสุข
+
 function arrayStringify(a : Array<number>): string
 {
-  let result = `` ;
+  let result = '';
   for (let i = 0; i < a.length; i++) {
-    result += `${a[i]}`; 
+    result += a[i]; 
   }
   return result;
 }

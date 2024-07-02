@@ -1,7 +1,9 @@
+//660610762 นางสาวธนพร ตั้งผดุงสุข
+
 function arrayStringify(a) {
     var result = "";
     for (var i = 0; i < a.length; i++) {
-        result += "".concat(a[i]);
+        result += a[i];
     }
     return result;
 }
