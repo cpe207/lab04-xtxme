@@ -1,17 +1,17 @@
 //660610762 นางสาวธนพร ตั้งผดุงสุข
 function typeChecker(a, b) {
-  if (typeof a == typeof b) {
-      if (typeof a == 'string') {
-          return 'I LOVE YOU';
+    if(typeof a === typeof b){
+      if(typeof a === 'string') {
+        return "I LOVE YOU";
       }
-      else {
-          return a + b;
-      }
+      else  if(typeof a === 'number') {
+        return (a+b);
+    }
   }
-  else {
-      return 'NOT MATCHED';
+    else{
+      return "NOT MATCHED";
+    }
   }
-}
 
 //Test cases
 const a1 = "Jack";
