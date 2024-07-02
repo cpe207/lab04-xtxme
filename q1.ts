@@ -1,4 +1,5 @@
 //660610762 นางสาวธนพร ตั้งผดุงสุข
+
 function typeChecker(a:any, b:any) {
   if (typeof a === 'string'&& typeof b === 'string') {
      return "I LOVE YOU";

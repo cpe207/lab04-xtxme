@@ -1,3 +1,5 @@
+//660610762 นางสาวธนพร ตั้งผดุงสุข
+
 function primeNumber(a : number)
 {
   for (let i = 2; i < a; i++) 
