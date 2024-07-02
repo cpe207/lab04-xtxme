@@ -1,5 +1,10 @@
-function arrayStringify(a) {
-  /* Your code here */
+function arrayStringify(a : Array<number>): string
+{
+  let result = `` ;
+  for (let i = 0; i < a.length; i++) {
+    result += `${a[i]}`; 
+  }
+  return result;
 }
 
 const c1 = [1, 2, 3];
